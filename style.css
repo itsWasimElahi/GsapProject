@@ -1,0 +1,341 @@
+
+/* 01 */
+/* Base styles for the navigation bar */
+@font-face {
+   font-family: china;
+   src: url(./3856NeueMachina.woff2);
+ }
+ 
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ html, body {
+   height: 100%;
+   width: 100%;
+ }
+ 
+ body {
+   overflow-x: hidden;
+ }
+ 
+ nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 40px 50px;
+ }
+ 
+ nav h1 {
+   font-size: 40px;
+   display: flex;
+   align-items: center;
+ }
+ 
+ nav h1 i{
+  rotate: 43deg;
+}
+
+
+ nav h4 {
+   font-size: 20px;
+   font-weight: 500;
+ }
+ 
+ nav button {
+   padding: 10px 20px;
+   font-size: 18px;
+   font-weight: 600;
+   border: 1px solid #000;
+   border-radius: 5px;
+   background-color: transparent;
+   cursor: pointer;
+ }
+ 
+ .part2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 50px;
+ }
+ 
+ /*  */
+.center{
+   padding:70px 100px;
+   height: 85%;
+   width: 100%;
+   display: flex;
+  
+}
+
+.center-part1{
+   height: 100%;
+   width: 44%;
+}
+
+.center-part1 h1{
+   font-size: 60px;
+   font-family: china;
+   line-height:1.2;
+   /* background-color: coral;  */
+}
+
+.center-part1 p{
+   font-size: 20px;
+   width: 95%;
+   margin-top: 50px;
+   margin-bottom: 35px;
+}
+
+.center-part1 button{
+   background-color: black;
+   color: #fff;
+   border-radius: 10px;
+   padding:22px 40px;
+   font-size: 25px;
+   font-weight: 6;
+   radius: none;
+}
+
+
+.center-part2{
+   height: 100%;
+   width: 56%;
+   position:relative;
+}
+ 
+.center-part2 img{
+   position: absolute;
+   right: 0;
+}
+
+.section1bottom{
+ 
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 40px 100px;
+
+}
+
+.section1bottom img{
+   height:80px;
+}
+
+/* section 2 onwards  */
+
+.section2 .services{
+   /* background-color: coral;  */
+   /* position: relative;
+   top:25%;
+   right:18%; */
+   margin-left: 0px;
+   margin-top: 200px;
+   padding: 20px 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 40px;
+}
+
+.services h3{
+   background-color: #BAFF68;
+   font-family: china;
+   font-weight: 500;
+   padding: 10px 10px;
+   border-radius: 5px;
+   font-size: 50px;
+}
+
+.services p{
+   width: 40%;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.container{
+   height:80%;
+   width: 100%;
+   gap: 50px;
+   padding: 100px 120px;
+   display:flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.elem{
+   flex-shrink: 0;
+   height:400px;
+   width: 47%;
+   border: 2px solid black;
+   border-radius: 50px;
+   /* background-color: red; */
+   box-shadow: 0px 15px 0px black;
+   padding: 60px;  
+   display: flex;
+} 
+ 
+.elempart1{
+   height:100%;
+   width: 50%;
+   display: flex;
+   /* background-color: yellow; */
+   align-items: flex-start;
+   justify-content: space-between;
+   flex-direction: column;
+}
+
+.elempart1 h2{
+   padding: 5px 10px;
+   font-size: 30px;
+   background-color: #BAFF68;
+   font-weight: 500;
+   font-family: china;
+   width:80%;
+   border-radius: 10px;
+
+}
+ 
+.elempart1 h4{
+   display:flex;
+   align-items: center;
+   font-size:25px;
+   font-weight: 500;
+   gap:20px;
+}
+
+
+.elempart1 h4 i {
+   padding:20px;
+   background-color: black;
+   font-weight: 900;
+   color: #fff;
+   border-radius: 50px;
+
+}
+
+.elempart2{
+   height:100%;
+   width: 50%;
+   /* mix-blend-mode: multiply; This blends the image with the background */
+
+   
+}
+
+
+.elempart2 img{
+   height:100%;
+   
+}
+
+.black{
+   background-color: black;
+   color: #fff; 
+}
+
+
+
+/*********************footer**********************************/
+/* Footer Styling */
+footer {
+   background-color: #333;
+   color: #fff;
+   padding: 40px 0;
+   margin-top:20%
+ }
+ 
+ .footer-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   max-width: 1200px;
+   margin: 0 auto;
+ }
+ 
+ .footer-section {
+   flex: 1;
+   padding: 20px;
+ }
+ 
+ .footer-section h2 {
+   font-size: 18px;
+   margin-bottom: 15px;
+   color: #BAFF68;
+ }
+ 
+ .footer-section p,
+ .footer-section ul {
+   font-size: 14px;
+   line-height: 24px;
+ }
+ 
+ .footer-section ul {
+   list-style: none;
+   padding: 0;
+ }
+ 
+ .footer-section ul li {
+   margin-bottom: 10px;
+ }
+ 
+ .footer-section ul li a {
+   color: #fff;
+   text-decoration: none;
+   transition: color 0.3s;
+ }
+ 
+ .footer-section ul li a:hover {
+   color: #BAFF68;
+ }
+ 
+ .social-links {
+   margin-top: 20px;
+ }
+ 
+ .social-links a {
+   display: inline-block;
+   margin-right: 10px;
+   font-size: 20px;
+   color: #fff;
+   transition: color 0.3s;
+ }
+ 
+ .social-links a:hover {
+   color: #BAFF68;
+ }
+ 
+ .footer-bottom {
+   text-align: center;
+   padding: 20px;
+   background-color: #222;
+   margin-top: 20px;
+   font-size: 14px;
+ }
+ 
+ .footer-bottom a {
+   color: #BAFF68;
+   text-decoration: none;
+ }
+ 
+ .footer-bottom a:hover {
+   text-decoration: underline;
+ }
+ 
+ @media (max-width: 768px) {
+   .footer-container {
+     flex-direction: column;
+   }
+ 
+   .footer-section {
+     margin-bottom: 20px;
+   }
+ }
+ 
+
+
+
+
+
